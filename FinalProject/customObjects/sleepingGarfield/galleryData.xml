@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+    <name>garfield</name>
+    <parts>15</parts>
+    <physicalsize>1.92m x 2.26m x 1.7m</physicalsize>
+    <methods>
+        <method>walk</method>
+        <method>upperBodyWalkMotion</method>
+        <method>lowerBodyWalkMotion</method>
+        <method>startWalk</method>
+        <method>endWalk</method>
+    </methods>
+    <questions/>
+    <sounds/>
+</model>

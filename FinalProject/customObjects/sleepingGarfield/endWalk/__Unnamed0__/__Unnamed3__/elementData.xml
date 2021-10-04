@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element class="edu.cmu.cs.stage3.alice.core.response.Comment" version="2.001">
+    <property name="text"><![CDATA[Postcondition: Garfield is standing upright, facing forward, in itinital model pose]]></property>
+    <property class="java.lang.Double" name="duration">0.0</property>
+    <property name="isCommentedOut">false</property>
+    <property name="isFirstClass">false</property>
+    <property name="data">
+        <entry>
+            <key class="java.lang.String">edu.cmu.cs.stage3.alice.authoringtool.visibleProperties</key>
+            <value class="java.lang.String">text</value>
+        </entry>
+    </property>
+</element>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element class="edu.cmu.cs.stage3.alice.core.response.Comment" version="2.001">
+    <property name="text"><![CDATA[Action: animates Garfield's walking motion and moves Garfield forward 1 meter; timing 1 second ]]></property>
+    <property class="java.lang.Double" name="duration">0.0</property>
+    <property name="isCommentedOut">false</property>
+    <property name="isFirstClass">false</property>
+    <property name="data">
+        <entry>
+            <key class="java.lang.String">edu.cmu.cs.stage3.alice.authoringtool.visibleProperties</key>
+            <value class="java.lang.String">text</value>
+        </entry>
+    </property>
+</element>

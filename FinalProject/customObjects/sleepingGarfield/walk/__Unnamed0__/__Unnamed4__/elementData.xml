@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element
+    class="edu.cmu.cs.stage3.alice.core.response.CallToUserDefinedResponse" version="2.001">
+    <property
+        criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion" name="userDefinedResponse">lowerBodyWalkMotion</property>
+    <property name="requiredActualParameters"/>
+    <property name="keywordActualParameters"/>
+    <property class="java.lang.Double" name="duration">1.0</property>
+    <property name="isCommentedOut">false</property>
+    <property name="isFirstClass">false</property>
+    <property name="data">
+        <entry>
+            <key class="java.lang.String">edu.cmu.cs.stage3.alice.authoringtool.visibleProperties</key>
+            <value class="java.lang.String">userDefinedResponse,requiredActualParameters</value>
+        </entry>
+    </property>
+</element>

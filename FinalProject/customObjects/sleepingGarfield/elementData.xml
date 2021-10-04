@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element class="edu.cmu.cs.stage3.alice.core.Model" name="garfield" version="2.001">
+    <child filename="torso"/>
+    <child filename="rightLeg"/>
+    <child filename="leftLeg"/>
+    <child filename="garfield"/>
+    <child filename="walk"/>
+    <child filename="upperBodyWalkMotion"/>
+    <child filename="lowerBodyWalkMotion"/>
+    <child filename="startWalk"/>
+    <child filename="endWalk"/>
+    <property name="color">
+        <red>1.0</red>
+        <green>1.0</green>
+        <blue>1.0</blue>
+        <alpha>1.0</alpha>
+    </property>
+    <property name="ambientColor"/>
+    <property class="java.lang.Double" name="opacity">1.0</property>
+    <property class="edu.cmu.cs.stage3.alice.scenegraph.FillingStyle" name="fillingStyle">edu.cmu.cs.stage3.alice.scenegraph.FillingStyle[SOLID]</property>
+    <property class="edu.cmu.cs.stage3.alice.scenegraph.ShadingStyle" name="shadingStyle">edu.cmu.cs.stage3.alice.scenegraph.ShadingStyle[SMOOTH]</property>
+    <property name="specularHighlightColor">
+        <red>0.0</red>
+        <green>0.0</green>
+        <blue>0.0</blue>
+        <alpha>1.0</alpha>
+    </property>
+    <property class="java.lang.Double" name="specularHighlightExponent">0.0</property>
+    <property name="emissiveColor">
+        <red>0.0</red>
+        <green>0.0</green>
+        <blue>0.0</blue>
+        <alpha>1.0</alpha>
+    </property>
+    <property
+        criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion" name="diffuseColorMap">garfield</property>
+    <property name="opacityMap"/>
+    <property name="emissiveColorMap"/>
+    <property name="specularHighlightColorMap"/>
+    <property name="bumpMap"/>
+    <property name="detailMap"/>
+    <property name="interactionMap"/>
+    <property name="visualScale">
+        <row>
+            <item>2.43762666553458</item>
+            <item>0.0</item>
+            <item>0.0</item>
+        </row>
+        <row>
+            <item>0.0</item>
+            <item>2.43762666553458</item>
+            <item>0.0</item>
+        </row>
+        <row>
+            <item>0.0</item>
+            <item>0.0</item>
+            <item>2.43762666553458</item>
+        </row>
+    </property>
+    <property name="isShowing">true</property>
+    <property name="disabledAffectors"/>
+    <property name="geometry"/>
+    <property name="visualization"/>
+    <property
+        componentClass="edu.cmu.cs.stage3.alice.core.Transformable" name="parts">
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">torso</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">rightLeg</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">leftLeg</item>
+    </property>
+    <property name="poses"/>
+    <property name="localTransformation">
+        <row>
+            <item>-0.5036086290583807</item>
+            <item>2.1769972171622362E-16</item>
+            <item>0.8639319120959068</item>
+            <item>0.0</item>
+        </row>
+        <row>
+            <item>-0.8639319120960114</item>
+            <item>6.333118248621597E-16</item>
+            <item>-0.5036086290584403</item>
+            <item>0.0</item>
+        </row>
+        <row>
+            <item>4.9786563760534265E-16</item>
+            <item>-0.9999999999999991</item>
+            <item>7.382332592453807E-16</item>
+            <item>0.0</item>
+        </row>
+        <row>
+            <item>2.1915408015309366</item>
+            <item>1.2825220015721714</item>
+            <item>1.9867733002078887</item>
+            <item>1.0</item>
+        </row>
+    </property>
+    <property
+        criterionClass="edu.cmu.cs.stage3.alice.core.criterion.ExternalReferenceKeyedCriterion" name="vehicle">.</property>
+    <property name="isPivotShowing">false</property>
+    <property name="eventsStopAscending"/>
+    <property name="isBoundingBoxShowing">false</property>
+    <property name="isBoundingSphereShowing">false</property>
+    <property name="script"/>
+    <property componentClass="edu.cmu.cs.stage3.alice.core.Response" name="responses">
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">walk</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">upperBodyWalkMotion</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">lowerBodyWalkMotion</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">startWalk</item>
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">endWalk</item>
+    </property>
+    <property name="behaviors"/>
+    <property name="variables"/>
+    <property name="questions"/>
+    <property componentClass="edu.cmu.cs.stage3.alice.core.TextureMap" name="textureMaps">
+        <item criterionClass="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">garfield</item>
+    </property>
+    <property name="sounds"/>
+    <property name="geometries"/>
+    <property name="misc"/>
+    <property name="isFirstClass">true</property>
+    <property name="data"/>
+</element>
